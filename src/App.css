@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+
+body{
+   background-color: #F5EBEB;
+}
+.parent{
+   display:flex;
+}
+h1{
+   color:#D864A9;
+}
+.container{
+  
+   gap:10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.one{
+   display: flex;
+   flex-wrap: wrap;
+ 
+   margin: 10px;
+   padding:20px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+   background-color: #E7AB9A;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   height: 50vh;
+   width: 25vw;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info{
+   display: flex;
+
+
+}
+.info-one, .info-two{
+   display: flex;
+   flex-direction: column;
+ 
+ 
+ 
+}
+.info-one{
+gap: 10px;
+align-items: center;
+}
+.info-two{
+   margin-right: 20px;
+   justify-content: flex-start;
+   width:70%;
+   border: solid 1px #617143;
+   border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-image {
+
+   
 }
 
-.App-link {
-  color: #61dafb;
+.search{
+   display: flex;
+   align-items: center;
+   gap:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-text{
+   border-radius: 8px;
+   padding:5px;
+   min-width: 30vw;
+}
+
+
+.btn{
+   padding: 5px;
+   border-radius: 8px;
+   background-color:#D864A9;
+   font-weight: bolder;
+   width: 5vw;
+   color:white;
+}
+.btn:hover{
+      cursor: pointer;
+      background-color: #617143;
+      
+}
+
+.card-btn {
+   padding: 5px;
+   border-radius: 10px;
+   border: solid 1px grey;
+   width: 6vw;
+   background-color: #617143;
+   color:white;
+ 
+}
+
+.card-btn a{
+   text-decoration: none;
+   color:white;
+}
+.card-btn:hover{
+   cursor: pointer;
+   background-color: #D864A9;
+}
+
+.card-image{
+   max-width: 60%;;
+
 }
